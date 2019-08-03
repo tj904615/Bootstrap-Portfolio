@@ -27,7 +27,7 @@ body {
   }
   
   p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 5;
   }
   
   h1,
@@ -58,7 +58,7 @@ body {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: #ffffff;
+    color: white;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
   }
@@ -77,16 +77,16 @@ body {
     background: scroll;
   }
   
-  nav {
+  nav 
     float: right;
     margin-top: 25px;
-    background: slategray;
+    background: rgb(8, 25, 41);
     color: white;
     width: 300px;
   }
   
   nav a {
-    display: inline-block;
+    
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
